@@ -1,5 +1,5 @@
 .navbar{
-    padding:1em 2em;
+    padding:2em 2em;
     background: black;
     display: flex;
     justify-content: space-between;
@@ -8,13 +8,12 @@
     box-sizing: border-box;
     z-index: 100;
     a img{
-        // margin:2em 0 2em 2em 
-        height: 4em;
+        height: 5em;
     }
     .navbarRoutes{
         width: 60%;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: flex-end;
         a{
             text-decoration: none;
