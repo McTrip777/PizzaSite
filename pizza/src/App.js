@@ -1,9 +1,8 @@
 import React from 'react'
-import { Route, Switch } from 'react-router-dom'
+import { Route, Switch, Link } from 'react-router-dom'
 import './styles/allStyles.scss'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
-import Contact from './components/Contact'
 import Menu from './components/Menu'
 import Footer from './components/Footer'
 
@@ -13,7 +12,6 @@ const App = () => {
     <div className="container">
       <Navbar />
       <Switch>
-        <Route path="/contact" component={Contact} />
         <Route path="/menu" component={Menu} />
         <Route path="/" component={Home} />
       </Switch>

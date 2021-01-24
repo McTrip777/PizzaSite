@@ -1,13 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 
 function Footer() {
     return (
         <div className="footer">
             <div className="foo footerLinks">
-                <Link to="/">Home</Link>
+                <HashLink smooth to="/#home">Home</HashLink>
                 <Link to="/menu">Menu</Link>
-                <Link to="/contact">Contact</Link>
+                <HashLink smooth to="/#contact">Contact</HashLink>
             </div>
             <div className="foo footerContact">
                 <h4>Contact Us</h4>

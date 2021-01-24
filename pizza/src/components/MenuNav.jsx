@@ -1,7 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import logo from '../img/pizzaLogoNew2.png'
-import '../styles/navbar.scss'
 
 function Navbar() {
     return (
