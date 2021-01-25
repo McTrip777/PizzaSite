@@ -20,12 +20,12 @@ export const Menu = {
         price: '$10.99', desc: "Choice of sauce and up to 3 toppings"
     },
     appetizers: [
-        { name: "Garden Salad", price: "$5.99", desc: "Salad mix, spinach, mushrooms, olives, onions, green peppers, cheddar cheese and tomatoes," },
-        { name: 'Cheesey Bread', price: "$6.99", desc: "Garlic butter base with mozzarella and cheddar cheese and topped with Italian seasoning. Comes with a marinara for dipping. 12 pieces" },
+        { name: "Garden Salad", price: "$5.99/7.99", desc: "Salad mix, spinach, mushrooms, olives, onions, green peppers, cheddar cheese and tomatoes." },
+        { name: 'Cheesey Bread', price: "$6.99", desc: "Garlic butter base with mozzarella and cheddar cheese and topped with Italian seasoning. Comes with a marinara for dipping. 12 pieces." },
         { name: 'Cinnamon Roll Bites', price: "$4.99", desc: "Yummy delicious cinnamon sugar bites covered in our made from scratch cream cheese icing." },
         { name: 'Breadsticks', price: "$5.25", desc: "10 piece." },
         { name: 'Jalapeno Cheese Bread', price: " $7.99", desc: "Garlic butter and cajun base with mozzarella and cheddar cheese and jalapenos. Topped with Italian seasoning. Comes with a marinara for dipping. 12 pieces." },
-        { name: 'Chicken Wings', price: "$10.99", desc: "6 piece bone in chicken wings" }
+        { name: 'Chicken Wings', price: "$10.99", desc: "6 piece bone in chicken wings." }
     ],
     sauces: [
         { name: 'Bottle Of Ranch', price: "$5.99", desc: "16 oz. bottle of Johnny's yummy ranch dressing." },

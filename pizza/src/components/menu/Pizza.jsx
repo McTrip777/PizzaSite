@@ -33,8 +33,10 @@ function Pizza() {
             </div>
             <div className="calzoneContainer">
                 <h1 className="calzoneHeader">Calzones</h1>
-                <p className="ingredients">{Menu.calzone.desc}</p>
-                <p className="price">{Menu.calzone.price}</p>
+                <section className="group">
+                    <p className="ingredients">{Menu.calzone.desc}</p>
+                    <p className="price">{Menu.calzone.price}</p>
+                </section>
             </div>
         </div>
     )

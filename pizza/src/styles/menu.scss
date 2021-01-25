@@ -1,6 +1,5 @@
 .menuContainer{
     width:100vw;
-    height:100vh;
     // MenuNav styles inserted here
     img{
         width:100%;
@@ -27,7 +26,7 @@
         flex-direction: column;
         .customPizzaHeader{
             font-size: 2.5em;
-            padding:1em;
+            padding:1em 0 .5em 0;
         }
         .custom{
             padding-bottom: .5em;
@@ -62,13 +61,18 @@
 
         .comboPizzaHeader{
             font-size: 2.5em;
-            padding:1em;
+            padding:1em 0 .5em 0;
         }
         .group{
-
+            display: flex;
+            flex-direction: column;
+            width:80%;
+            margin:0 auto;
+            padding:.5em;
             .comboName{
                 font-size: 1.2em;
                 font-weight: bolder;
+                padding-bottom:.5em;
             }
             .ingredients{
                 
@@ -79,13 +83,21 @@
 
         .calzoneHeader{
             font-size: 2.5em;
+            padding:1em 0 .5em 0;
         }
-        .ingredients{
-
-        }
-        .price{
-
+        .group{
+            display: flex;
+            flex-direction: column;
+            width:80%;
+            margin:0 auto;
+            padding:.5em;
+            .ingredients{
+                padding-bottom:.5em;
+            }
+            .price{
+            }
         }
     }
 }
 //Appitizers
+
