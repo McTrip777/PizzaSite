@@ -7,7 +7,7 @@ function Navbar() {
 
     return (
         <div className="navbar">
-            <Link className="homeLogo" to="/"><img src={logo} /></Link>
+            <NavHashLink smooth to="/#home" className="homeLogo"><img src={logo} /></NavHashLink>
             <div className="navbarRoutes">
                 <NavHashLink smooth to="/#home">Home</NavHashLink>
                 <Link to="/menu/pizza">Menu</Link>

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, Switch } from 'react-router-dom'
-import MenuNav from './MenuNav'
+import MenuNav from './menu/MenuNav'
 import dough from '../img/dough.jpg'
 import Pizza from './menu/Pizza'
 import Sauce from './menu/Sauce'
