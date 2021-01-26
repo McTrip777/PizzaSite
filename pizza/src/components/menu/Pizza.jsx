@@ -9,7 +9,7 @@ function Pizza() {
                 <h1 className="customPizzaHeader">Pizza</h1>
                 <section className="group custom">
                     <h3 className="pizzaSize title">Size</h3>
-                    <p className="addons title">Additional Toppings</p>
+                    <p className="addons title">Add-ons</p>
                     <p className="price title">Price</p>
                     <p className="comboPrice title">Combo Price</p>
                 </section>
