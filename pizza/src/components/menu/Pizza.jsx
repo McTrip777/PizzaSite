@@ -38,6 +38,14 @@ function Pizza() {
                     <p className="price">{Menu.calzone.price}</p>
                 </section>
             </div>
+            <div className="toppingContainer">
+                <h1 className="toppingHeader">Toppings</h1>
+                <section className="group">
+                    {Menu.toppings.map((item) => {
+                        return <p className="ingredients" key={item}>{item}</p>
+                    })}
+                </section>
+            </div>
         </div>
     )
 }

@@ -42,5 +42,6 @@ export const Menu = {
         { size: "20 Oz", price: "$2.50" },
         { size: "2 Liter", price: "$3.99" }
     ],
-    drinkFlavors: ["Pepsi", "Diet Pepsi", "Mountain Dew", "Sierra Mist", "Root Beer", "Dole Lemonade"]
+    drinkFlavors: ["Pepsi", "Diet Pepsi", "Mountain Dew", "Sierra Mist", "Root Beer", "Dole Lemonade"],
+    toppings: ['Pepperoni', 'Canadian Bacon', 'Bacon', 'Beef', 'Sausage', 'Salami', 'Chicken', 'BBQ Chicken', 'Buffalo Chicken', 'Cheddar Cheese', 'Extra Cheese', 'Jalapenos', 'Mushrooms', 'Olives', 'Onions', 'Green Peppers', 'Pineapple', 'Artichoke Hearts', 'Tamatoes', 'Spinach', 'Banana Peppers']
 }
