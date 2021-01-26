@@ -21,6 +21,7 @@ function Pizza() {
                         <p className="comboPrice">{item.comboPrice}</p>
                     </section>
                 })}
+                <p className="GF">* GF - Gluten Free</p>
             </div>
             <div className="comboPizzaContainer">
                 <h1 className="comboPizzaHeader">Combos</h1>
