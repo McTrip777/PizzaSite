@@ -6,7 +6,7 @@ function Pizza() {
     return (
         <div className="pizzaContainer">
             <div className="customPizzaContainer">
-                <h1 className="customPizzaHeader">Custom Pizza</h1>
+                <h1 className="customPizzaHeader">Pizza</h1>
                 <section className="group custom">
                     <h3 className="pizzaSize title">Size</h3>
                     <p className="addons title">Additional Toppings</p>

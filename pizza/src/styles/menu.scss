@@ -5,7 +5,7 @@
     img{
         width:100%;
         height:100vh;
-        opacity: .5;
+        opacity: .35;
         position: fixed;
         z-index: -100;
         overflow: hidden;
@@ -56,6 +56,31 @@
             }
             p{
                 width:20%;
+            }
+        }
+    }
+    @media(max-width:500px){
+        .customPizzaContainer{
+
+            .customPizzaHeader{
+
+            }
+            .custom{
+                width:90%;
+    
+                .title{
+                    font-size: 1em;
+                    font-weight: bolder;
+                }
+            }
+            .group{
+                width:90%;
+                .pizzaSize{
+                    width:22.5%;
+                }
+                p{
+                    width:22.5%;
+                }
             }
         }
     }
@@ -122,5 +147,96 @@
         }
     }
 }
-//Appitizers
 
+
+//Appitizers
+.appetizerContainer{
+
+    .appetizerHeader{
+        font-size: 2.5em;
+        padding:1em 0 .5em 0;
+    }
+    .group{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width:80%;
+        margin:0 auto;
+        padding:.5em;
+        .appName{
+            font-size: 1.2em;
+            font-weight: bolder;
+            padding-bottom:.5em;
+        }
+        .desc{
+            padding-bottom:.5em;
+        }
+        .price{
+
+        }
+    }
+}
+
+
+// Sauces
+.sauceContainer{
+
+    .sauceHeader{
+        font-size: 2.5em;
+        padding:1em 0 .5em 0;
+    }
+    .group{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width:80%;
+        margin:0 auto;
+        padding:.5em;
+        .sauceName{
+            font-size: 1.2em;
+            font-weight: bold;
+            padding:0 .5em;
+            
+        }
+        .price{
+
+        }
+    }
+}
+
+
+// Drinks
+.drinksContainer{
+
+    .drinksHeader{
+        font-size: 2.5em;
+        padding:1em 0 .5em 0;
+    }
+    .group{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width:80%;
+        margin:0 auto;
+        padding:.5em;
+        .drinkSize{
+            font-size: 1.2em;
+            font-weight: bold;
+            padding:0 .5em;
+        }
+        .price{
+
+        }
+    }
+    .drinkList{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+        .drinkName{
+            font-size: 1.2em;
+            font-weight: bold;
+            padding:.5em;
+        }
+    }
+}

@@ -1,10 +1,10 @@
 export const Menu = {
     customPizza: [
-        { pizza: `10" Pizza`, price: "$6.99", additions: "$1.00", comboPrice: "$8.99" },
-        { pizza: `14" Pizza`, price: "$9.99", additions: "$1.50", comboPrice: "$12.99" },
-        { pizza: `16" Pizza`, price: "$12.99", additions: "$1.50", comboPrice: "$15.99" },
-        { pizza: `28" Pizza`, price: "$29.99", additions: "$3.50", comboPrice: "$44.99" },
-        { pizza: `10" Gluten Free Pizza`, price: "$11.99", additions: "$1.50", comboPrice: "$14.99" }
+        { pizza: `10"`, price: "$6.99", additions: "$1.00", comboPrice: "$8.99" },
+        { pizza: `14"`, price: "$9.99", additions: "$1.50", comboPrice: "$12.99" },
+        { pizza: `16"`, price: "$12.99", additions: "$1.50", comboPrice: "$15.99" },
+        { pizza: `28"`, price: "$29.99", additions: "$3.50", comboPrice: "$44.99" },
+        { pizza: `10" GF`, price: "$11.99", additions: "$1.50", comboPrice: "$14.99" }
     ],
     comboPizza: [
         { pizzaName: "Johnny's Combo", ingredients: "Pepperoni, Canadian bacon, olives, mushrooms, onions, green peppers, beef sausage and extra cheese." },

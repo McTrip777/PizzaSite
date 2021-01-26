@@ -12,9 +12,11 @@ function Drinks() {
                     <p className="price">{item.price}</p>
                 </section>
             })}
-            {Menu.drinkFlavors.map((item) => {
-                return <h3 className="drinkName" key={item}>{item}</h3>
-            })}
+            <section className="drinkList">
+                {Menu.drinkFlavors.map((item) => {
+                    return <h3 className="drinkName" key={item}>{item}</h3>
+                })}
+            </section>
         </div >
     )
 }
