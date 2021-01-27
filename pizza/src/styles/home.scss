@@ -232,4 +232,50 @@
             }
         }
     }
+    @media(max-width:600px){
+        .homeContactContainer{
+            .contactTitle{
+            }
+            .innerContactContainer{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                width:90vw;
+                .mapContainer{
+                    width:90vw;
+                    height:40vh;
+                    margin:0 0 2em;
+                    a{
+                        .fas{
+                        }
+                    }
+                }
+                .contactInfo{
+                    .numberHeader{
+                    }
+                    .contactNumber{
+                    }
+                    .addressHeader{
+                    }
+                    a{
+                        .address{
+                        }
+                    }
+                    .socials{
+                        a{
+                            .fab{
+    
+                            }
+                        }
+                    }
+                    .orderOnline button{    
+                        &:hover{
+                        }
+                        &:focus{
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
