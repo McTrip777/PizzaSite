@@ -32,12 +32,12 @@
             .number{
                 text-decoration: none;
                 margin:.5em 0;
-                color:white !important;
+                color:white;
             }
             .email{
                 text-decoration: none;
                 margin:.5em 0;
-                color:white !important;
+                color:white;
             }
             .socials{
                 i{
@@ -85,10 +85,14 @@
             h4{
             }
             .number{
-               
+                text-decoration: none;
+                margin:.5em 0;
+                color:white;
             }
             .email{
-               
+                text-decoration: none;
+                margin:.5em 0;
+                color:white;
             }
             .socials{
                 width:50%;
