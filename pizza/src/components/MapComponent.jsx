@@ -15,7 +15,7 @@ function MapComponent() {
         <div className="mapContainer">
             <MapGL {...viewport}
                 mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_ACCESS_TOKEN}
-                mapStyle="mapbox://styles/jacobmcfaul/ckkaccwob0fo518nt2i6sotzg"
+                // mapStyle="mapbox://styles/jacobmcfaul/ckkaccwob0fo518nt2i6sotzg"
                 onViewportChange={viewport => { setViewport(viewport) }}>
                 <Marker latitude={43.61763907905514} longitude={-116.39117822157824}>
                     <a target="_blank"
