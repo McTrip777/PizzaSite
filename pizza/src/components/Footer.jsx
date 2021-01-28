@@ -8,13 +8,13 @@ function Footer() {
             <div className="footer">
                 <div className="foo footerLinks">
                     <HashLink smooth to="/#home">Home</HashLink>
-                    <Link to="/menu">Menu</Link>
+                    <Link to="/menu/pizza">Menu</Link>
                     <HashLink smooth to="/#contact">Contact</HashLink>
                 </div>
                 <div className="foo footerContact">
                     <h4>Contact Us</h4>
-                    <p className="number">(208) 888-4857</p>
-                    <p className="email">contact@JohnnysPizza.com</p>
+                    <p className="number">(888) 888-8888</p>
+                    <p className="email">contact@(YourNameHere).com</p>
                     <div className="socials">
                         <Link to="/facebook"><i className="fab fa-facebook fa-2x"></i></Link>
                         <Link to="/instagram"><i className="fab fa-instagram fa-2x"></i></Link>

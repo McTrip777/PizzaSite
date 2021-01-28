@@ -3,16 +3,15 @@ export const Menu = {
         { pizza: `10"`, price: "$6.99", additions: "$1.00", comboPrice: "$8.99" },
         { pizza: `14"`, price: "$9.99", additions: "$1.50", comboPrice: "$12.99" },
         { pizza: `16"`, price: "$12.99", additions: "$1.50", comboPrice: "$15.99" },
-        { pizza: `28"`, price: "$29.99", additions: "$3.50", comboPrice: "$44.99" },
         { pizza: `10" GF`, price: "$11.99", additions: "$1.50", comboPrice: "$14.99" }
     ],
     comboPizza: [
-        { pizzaName: "Johnny's Combo", ingredients: "Pepperoni, Canadian bacon, olives, mushrooms, onions, green peppers, beef sausage and extra cheese." },
-        { pizzaName: "Johnny's All Meat", ingredients: "Pepperoni, Canadian bacon, salami, bacon, beef, sausage and extra cheese." },
-        { pizzaName: "Johnny's Vegi", ingredients: "Mushrooms, olives, onions, green peppers, spinach, artichoke hearts, cheddar cheese, extra cheese and fresh tomatoes." },
-        { pizzaName: "Johnny's Spice Hawaiian", ingredients: "Canadian Bacon, pineapple, sausage, jalapenos, cheddar cheese and extra cheese on cajun sauce." },
-        { pizzaName: "Johnny's BBQ Chicken Combo", ingredients: "BBQ chicken, bacon, onions, cheddar cheese and extra cheese on BBQ sauce." },
-        { pizzaName: "Johnny's Buffalo Chicken Combo", ingredients: "Buffalo chicken, bacon, onions, green peppers, cheddar cheese and extra cheese on garlic cajun ranch sauce." },
+        { pizzaName: "Combo", ingredients: "Pepperoni, Canadian bacon, olives, mushrooms, onions, green peppers, beef sausage and extra cheese." },
+        { pizzaName: "All Meat", ingredients: "Pepperoni, Canadian bacon, salami, bacon, beef, sausage and extra cheese." },
+        { pizzaName: "Vegi", ingredients: "Mushrooms, olives, onions, green peppers, spinach, artichoke hearts, cheddar cheese, extra cheese and fresh tomatoes." },
+        { pizzaName: "Spice Hawaiian", ingredients: "Canadian Bacon, pineapple, sausage, jalapenos, cheddar cheese and extra cheese on cajun sauce." },
+        { pizzaName: "BBQ Chicken Combo", ingredients: "BBQ chicken, bacon, onions, cheddar cheese and extra cheese on BBQ sauce." },
+        { pizzaName: "Buffalo Chicken Combo", ingredients: "Buffalo chicken, bacon, onions, green peppers, cheddar cheese and extra cheese on garlic cajun ranch sauce." },
         { pizzaName: "Spinach Bacon Artichoke", ingredients: "Spinach, bacon, artichoke hearts, chicken, cheddar cheese and extra cheese on ranch sauce." },
         { pizzaName: "Garlic Chicken Ranch", ingredients: "Chicken, onions, bacon, green pepper, cheddar cheese and extra cheese on garlic ranch sauce." }
     ],
@@ -28,7 +27,7 @@ export const Menu = {
         { name: 'Chicken Wings', price: "$10.99", desc: "6 piece bone in chicken wings." }
     ],
     sauces: [
-        { name: 'Bottle Of Ranch', price: "$5.99", desc: "16 oz. bottle of Johnny's yummy ranch dressing." },
+        { name: 'Bottle Of Ranch', price: "$5.99", desc: "16 oz. bottle of ranch dressing." },
         { name: 'Ranch', price: "$0.99", desc: "Ranch Dip" },
         { name: 'BBQ Sauce', price: "$0.99", desc: "BBQ Sauce" },
         { name: 'Sliced Tomatoes', price: "$1.50", desc: "Sliced Tomatoes" },

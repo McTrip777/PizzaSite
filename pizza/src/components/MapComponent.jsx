@@ -1,22 +1,23 @@
 import React, { useState, useEffect, useRef } from "react";
-import mapboxgl from 'mapbox-gl'; // or "const mapboxgl = require('mapbox-gl');"
-// import ReactMapGL, { Marker } from 'react-map-gl';
+import mapboxgl from 'mapbox-gl';
+import "mapbox-gl/dist/mapbox-gl.css";
+
+mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
 
 function MapComponent() {
-
     const [viewport, setViewport] = useState({
-        latitude: 43.61763907905514,
-        longitude: -116.39117822157824,
+        latitude: (Math.random() * Math.floor(90) - (Math.random() * Math.floor(90))),
+        longitude: (Math.random() * Math.floor(180) - (Math.random() * Math.floor(180))),
         width: "100%",
         height: "100%",
-        zoom: 15
+        zoom: 8
     })
+
     const [map, setMap] = useState(null);
     const mapContainer = useRef(null);
 
     useEffect(() => {
 
-        mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
         // Style -> "mapbox://styles/jacobmcfaul/ckkaccwob0fo518nt2i6sotzg"
         const initializeMap = ({ setMap, mapContainer }) => {
 
@@ -30,31 +31,15 @@ function MapComponent() {
                 setMap(map)
                 map.resize();
             });
+            map.addControl(new mapboxgl.NavigationControl(), 'bottom-right');
+            var marker = new mapboxgl.Marker()
+            marker.setLngLat([viewport.longitude, viewport.latitude]).addTo(map);
         };
 
         if (!map) initializeMap({ setMap, mapContainer });
     }, [map]);
 
     return <div ref={el => (mapContainer.current = el)} className="mapContainer" />;
-
-    // console.log(process.env.REACT_APP_MAPBOX_ACCESS_TOKEN)
-    // return (
-    //     <div className="mapContainer">
-    //         <div ref={el => (mapContainer.current = el)} style={styles} />;
-    //         {/* <ReactMapGL {...viewport}
-    //             mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_ACCESS_TOKEN}
-    //             // mapStyle="mapbox://styles/jacobmcfaul/ckkaccwob0fo518nt2i6sotzg"
-    //             onViewportChange={nextViewport => { setViewport(nextViewport) }}>
-    //             <Marker latitude={43.61763907905514} longitude={-116.39117822157824}>
-    //                 <a target="_blank"
-    //                     href="https://www.google.com/maps/place/Johnny's+Pizza/@43.6177695,-116.3911977,19.14z/data=!4m12!1m6!3m5!1s0x54ae538d04a0c13f:0x40f2531f811a14b!2sJohnny's+Pizza!8m2!3d43.61764!4d-116.3911832!3m4!1s0x54ae538d04a0c13f:0x40f2531f811a14b!8m2!3d43.61764!4d-116.3911832">
-    //                     <i className="fas fa-map-marker-alt" />
-    //                 </a>
-    //             </Marker>
-    //         </ReactMapGL> */}
-    //     </div>
-    // );
-
 }
 
 export default MapComponent
